@@ -11,13 +11,17 @@ const About = () => {
   return (
     <section className="about" id='about'>
       <div className="container">
-        <h1 data-aos-duration="1500" data-aos="fade-right">About <span>Me</span></h1>
+        <h1 data-aos-duration="1500" data-aos="fade-right"
+    
+     >About <span>Me</span></h1>
         <div className="imag"  data-aos-duration="1500"  data-aos="zoom-in" >
           <div className='circle' >
             <img src={test2} alt="my photo"/>
           </div>
         </div>
-        <h3 className="title" data-aos-duration="1500" data-aos="fade-left">Frontend Developer</h3>
+        <h3 className="title" data-aos-duration="1500" data-aos="fade-right"
+    
+     >Frontend Developer</h3>
         <p className="dis"  data-aos="flip-up" data-aos-duration="1500">
         Experienced JavaScript Developer with 2 years in the industry. Proficient
 with React. Use the problem-solving ability to improve

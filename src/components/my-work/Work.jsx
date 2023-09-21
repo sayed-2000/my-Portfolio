@@ -20,9 +20,9 @@ const Work = () => {
   <section className='Portfolio'>
     <div className="container">
       <h3 data-aos="fade-right">MY WORK</h3>
-      <h1 data-aos="fade-left" >See My Works Which Will Amaze You!</h1>
+      <h1 data-aos="fade-right" >See My Works Which Will Amaze You!</h1>
       <div className="my-work" >
-        <div className="itme" data-aos="fade-right" data-aos-duration="1500" ><img src={iamg1} alt="photo" />
+        <div className="itme" data-aos="fade-down" data-aos-duration="1500" ><img src={iamg1} alt="photo" />
           <div className="itme__text">
             <h2>GPT</h2>
             <p>The website helps you learn about the latest technology on the market</p>
@@ -33,7 +33,7 @@ const Work = () => {
           </div>
         </div>
         
-        <div className="itme" data-aos="fade-up" data-aos-duration="1500" ><img src={iamg5} alt="photo" />
+        <div className="itme" data-aos="fade-down" data-aos-duration="1500" ><img src={iamg5} alt="photo" />
           <div className="itme__text">
             <h2>Smart</h2>
             <p>The website helps you sell your products and display them easily to users</p>
@@ -44,7 +44,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="itme" data-aos="fade-left"   data-aos-duration="1500"><img src={iamg4} alt="photo" />
+        <div className="itme" data-aos="fade-down"   data-aos-duration="1500"><img src={iamg4} alt="photo" />
           <div className="itme__text">
             <h2>Restaurant</h2>
             <p>The website helps you sell your products and display them easily to users</p>
@@ -55,7 +55,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="itme" data-aos="fade-right"  data-aos-duration="1500">
+        <div className="itme" data-aos="fade-down"  data-aos-duration="1500">
           <img src={iamg3} alt="photo" />
           <div className="itme__text">
             <h2>Kids fun</h2>
@@ -67,7 +67,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="itme" data-aos="fade-up" data-aos-duration="1500">
+        <div className="itme" data-aos="fade-down" data-aos-duration="1500">
           <img src={iamg2} alt="photo" />
           <div className="itme__text">
             <h2>Desing Home</h2>
@@ -79,7 +79,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="itme" data-aos="fade-left"   data-aos-duration="1500">
+        <div className="itme" data-aos="fade-down"   data-aos-duration="1500">
           <img src={iamg6} alt="photo" />
           <div className="itme__text">
             <h2>Food time</h2>

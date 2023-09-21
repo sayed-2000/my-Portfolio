@@ -18,15 +18,15 @@ const Skills = () => {
                     <h1>What My Programming Skills Included?</h1>
                     <p>I develop simple, intuitive and responsive user interface that helps users get things done with less effort and time with those technologies.</p>
                 </div>
-                <div className="image col-md-6"data-aos="fade-left" >
+                <div className="image col-md-6"data-aos="flip-left" >
                     <div className="children">
-                    <span className="itme"   data-aos="flip-left">  <img src={css} alt=""/></span>
-                    <span className="itme"  data-aos="flip-up">  <img src={boot} alt=""/></span>
-                    <span className="itme"   data-aos="flip-right">  <img src={css2} alt=""/></span>
+                    <span className="itme"   data-aos="flip-lef">  <img src={css} alt=""/></span>
+                    <span className="itme"  data-aos="flip-u">  <img src={boot} alt=""/></span>
+                    <span className="itme"   data-aos="flip-righ">  <img src={css2} alt=""/></span>
                     <div className="mr"></div>
-                    <span className="itme" data-aos="flip-left">  <img src={sass} alt=""/></span>
-                    <span className="itme" data-aos="flip-up">  <img src={js} alt=""/></span>
-                    <span className="itme" data-aos="flip-right">  <img src={reactImag} alt=""/></span>
+                    <span className="itme" data-aos="flip-lef">  <img src={sass} alt=""/></span>
+                    <span className="itme" data-aos="flip-u">  <img src={js} alt=""/></span>
+                    <span className="itme" data-aos="flip-ight">  <img src={reactImag} alt=""/></span>
                     </div>
                 </div>
             </div>
