@@ -34,7 +34,6 @@ const Skills = () => {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 800,
-    // lazyLoad: true,
     cssEase: "ease-in-out",
   };
 
