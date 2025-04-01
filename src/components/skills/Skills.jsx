@@ -63,8 +63,6 @@ const Skills = () => {
           </div>
           <div
             className="image col-md-6"
-            // data-aos-duration="1500"
-            // data-aos="fade-left"
           >
             <div className="children">
               <div>
