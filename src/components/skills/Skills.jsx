@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import "./skills.css";
 import css from "../../images/css.png";
@@ -34,7 +35,6 @@ const Skills = () => {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 800,
-    // lazyLoad: true,
     cssEase: "ease-in-out",
   };
 
@@ -63,8 +63,6 @@ const Skills = () => {
           </div>
           <div
             className="image col-md-6"
-            data-aos-duration="1500"
-            data-aos="fade-left"
           >
             <div className="children">
               <div>
@@ -87,18 +85,6 @@ const Skills = () => {
                   </dev>
                 </Slider>
               </div>
-              {/* <span className="itme" data-aos="flip-lef">
-                {" "}
-                <img src={css} alt="" />
-              </span>
-              <span className="itme" data-aos="flip-u">
-                {" "}
-                <img src={boot} alt="" />
-              </span>
-              <span className="itme" data-aos="flip-righ">
-                {" "}
-                <img src={css2} alt="" />
-              </span> */}
               <div className="mr"></div>
               {isLoaded && (
                 <div>
@@ -118,18 +104,6 @@ const Skills = () => {
                   </Slider>
                 </div>
               )}
-              {/* <span className="itme" data-aos="flip-lef">
-                {" "}
-                <img src={sass} alt="" />
-              </span>
-              <span className="itme" data-aos="flip-u">
-                {" "}
-                <img src={js} alt="" />
-              </span>
-              <span className="itme" data-aos="flip-ight">
-                {" "}
-                <img src={reactImag} alt="" />
-              </span> */}
             </div>
           </div>
         </div>
